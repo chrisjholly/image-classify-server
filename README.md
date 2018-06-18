@@ -9,9 +9,7 @@ It is extension of [this](https://github.com/DeepBlueCitzenService/Tensorflow-Se
 To run the server on localhost:
 
 ```
-$ pip3 install -r requirements.txt
-$ python3 manage.py collectstatic
-$ python3 manage.py runserver
+docker run -it --rm -p 8000:8000 chrisjholly/image-classify-server 
 ```
 
 ## Web Interface
